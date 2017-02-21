@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.gabi_java4project_war_1.0-SNAPSHOTPU" transaction-type="JTA">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>jdbc/j4projectconnection</jta-data-source>
+    <class>com.gabi.model.MedicDB</class>
+    <class>com.gabi.model.PacientDB</class>
+    <class>com.gabi.model.RegMediciDB</class>
+    <class>com.gabi.model.RegPacientiDB</class>
+    <class>com.gabi.model.RegViziteDB</class>
+    <class>com.gabi.model.UserRoles</class>
+    <class>com.gabi.model.Users</class>
+    <class>com.gabi.model.CabinetDB</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>
